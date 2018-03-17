@@ -29,6 +29,7 @@ setup(
     url='https://github.com/JaDogg/propers',
     author='Bhathiya Perera',
     author_email='bhathiya91@live.com',
+    python_requires='>2.6, !=3.0.*, !=3.1.*, !=3.2.*, <4',
     # https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
