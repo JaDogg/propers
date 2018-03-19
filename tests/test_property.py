@@ -5,7 +5,7 @@ from parameterized import parameterized
 from propers.properties import Property, PropertyParserException
 
 
-class PropertyTestCase(unittest.TestCase):
+class CommentTestCase(unittest.TestCase):
     def test_property_creation(self):
         prop = Property("a=b")
         self.assertTrue(prop is not None)
